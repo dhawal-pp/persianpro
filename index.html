@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <meta name="description" content="Know how to learn the Persian language. Take online classes from one of the best in India. Also know how to write, speak and read the Iranian language the easy way!">
+    <meta name="description" content="Know how to learn the Persian language.Take online classes from one of the best in India. Also know how to write, speak and read the Iranian language the easy way!">
     <title>PersianPro | Learn Persian language with online classes</title>
     <style type="text/css">
     
@@ -73,7 +73,29 @@
     <main>    	
       <h1>Learn Persian online with PersianPro</h1>
       
-      <h2>Persian language programmes - November 2021</h2>
+      <script>
+	const month = new Array();
+	month[0] = "January";
+	month[1] = "February";
+	month[2] = "March";
+	month[3] = "April";
+	month[4] = "May";
+	month[5] = "June";
+	month[6] = "July";
+	month[7] = "August";
+	month[8] = "September";
+	month[9] = "October";
+	month[10] = "November";
+	month[11] = "December";
+
+	const d = new Date();
+	let mon = month[d.getMonth()];
+	let year = d.getFullYear();
+	let monyear = mon + " - " + year
+	document.getElementById("currentMonth").innerHTML = monyear;
+      </script>      
+      
+      <h2>Persian language programmes<p id="currentMonth"></p></h2>
 
 	<table>
 	  <tr>
